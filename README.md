@@ -40,10 +40,11 @@ npm run preview
 ### Fix a blank or broken site
 
 1. Open [Pages settings](https://github.com/DDas12345/pokemon-encyclopedia/settings/pages).
-2. Under **Build and deployment → Source**, choose **GitHub Actions** (not “Deploy from a branch”).
-3. Re-run the workflow: [Actions](https://github.com/DDas12345/pokemon-encyclopedia/actions) → **Deploy to GitHub Pages** → **Run workflow**.
+2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
+3. Branch: **`gh-pages`**, folder: **`/ (root)`** — not `main`.
+4. Save, wait 1–2 minutes, then hard-refresh the site (Cmd+Shift+R).
 
-If the page shows only a title and no app, Pages is serving raw source from `main` instead of the built `dist` folder.
+If you see only the title “PokéDex Encyclopedia” with no UI, Pages was serving raw `main` instead of the built app on `gh-pages`.
 
 ## Tech stack
 
