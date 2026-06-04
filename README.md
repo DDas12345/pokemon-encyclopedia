@@ -35,9 +35,15 @@ npm run preview
 
 ## Live demo
 
-Deployed via GitHub Pages: **https://ddas12345.github.io/pokemon-encyclopedia/**
+**https://ddas12345.github.io/pokemon-encyclopedia/**
 
-Pushes to `main` auto-deploy. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+### Fix a blank or broken site
+
+1. Open [Pages settings](https://github.com/DDas12345/pokemon-encyclopedia/settings/pages).
+2. Under **Build and deployment → Source**, choose **GitHub Actions** (not “Deploy from a branch”).
+3. Re-run the workflow: [Actions](https://github.com/DDas12345/pokemon-encyclopedia/actions) → **Deploy to GitHub Pages** → **Run workflow**.
+
+If the page shows only a title and no app, Pages is serving raw source from `main` instead of the built `dist` folder.
 
 ## Tech stack
 
