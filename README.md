@@ -33,6 +33,12 @@ npm run build
 npm run preview
 ```
 
+## Live demo
+
+Deployed via GitHub Pages: **https://ddas12345.github.io/pokemon-encyclopedia/**
+
+Pushes to `main` auto-deploy. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
 ## Tech stack
 
 - React 19 + Vite
